@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
+using System.Collections.Generic;
 
 namespace ENotify.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class MessageController: Controller
     {
         private IHubContext<NotifyHub, ITypedHubClient> _hubContext;
 
-        public ValuesController(IHubContext<NotifyHub, ITypedHubClient> hubContext)
+        public MessageController(IHubContext<NotifyHub, ITypedHubClient> hubContext)
         {
             _hubContext = hubContext;
         }
@@ -35,7 +32,7 @@ namespace ENotify.Controllers
         [HttpPost]
         public string Post([FromBody]Message msg)
         {
-            if(msg.Type == "Notify")
+            if (msg.Type == "Notify")
             {
                 _hubContext.Clients.All.BroadcastMessage(msg.Type, msg.Payload);
                 return "Success";

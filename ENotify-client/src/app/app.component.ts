@@ -7,6 +7,9 @@ import { HubConnection } from '@aspnet/signalr-client';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+
+  messages: string[] = [];
+
   private _hubConnection: HubConnection;
 
   ngOnInit(): void {
@@ -17,7 +20,7 @@ export class AppComponent implements OnInit {
       .catch(err => console.log('Error while establishing connection :('));
 
     this._hubConnection.on('BroadcastMessage', (type: string, payload: string) => {
-      console.log(type, payload);
+      this.messages.push(payload);
     });
   }
 }
