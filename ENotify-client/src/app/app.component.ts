@@ -23,4 +23,9 @@ export class AppComponent implements OnInit {
       this.messages.push(payload);
     });
   }
+
+  addItByMe(): void {
+    this._hubConnection.invoke('FromClient', "Notify", "from the client itself")
+    .catch(err => console.error(err));
+  }
 }
