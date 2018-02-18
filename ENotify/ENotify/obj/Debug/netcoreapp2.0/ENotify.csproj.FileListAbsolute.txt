@@ -1,0 +1,11 @@
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\bin\Debug\netcoreapp2.0\ENotify.deps.json
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\bin\Debug\netcoreapp2.0\ENotify.runtimeconfig.json
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\bin\Debug\netcoreapp2.0\ENotify.runtimeconfig.dev.json
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\bin\Debug\netcoreapp2.0\ENotify.dll
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\bin\Debug\netcoreapp2.0\ENotify.pdb
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\obj\Debug\netcoreapp2.0\ENotify.csprojResolveAssemblyReference.cache
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\obj\Debug\netcoreapp2.0\ENotify.csproj.CoreCompileInputs.cache
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\obj\Debug\netcoreapp2.0\ENotify.AssemblyInfoInputs.cache
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\obj\Debug\netcoreapp2.0\ENotify.AssemblyInfo.cs
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\obj\Debug\netcoreapp2.0\ENotify.dll
+D:\Development\Eclipse\RnD\Notification\ENotify\ENotify\ENotify\obj\Debug\netcoreapp2.0\ENotify.pdb
